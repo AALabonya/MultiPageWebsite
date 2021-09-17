@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en"> 
+     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Blog Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+                <div class="nav-links" id="nabLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="college.html">ABOUT</a></li>
+                        <li><a href="course & blog.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+          <h1>Our Certificate & Online Program For 2021</h1>
+        </section>
+
+<!--------- blog page content---------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="certificate.jpg">
+            <h2>Our Certificate & Online Program For 2021</h2>
+            <p> University is ranked highly in this country. This is a great 
+                achievement. However, in the global landscape of higher education,
+                we are still off the radar. We are behind the world's best in our 
+                practices and standards. But we do not intend to stay that way.
+                We choose to aim ambitiously high. We shall continuously improve 
+                this University. We shall benchmark ourselves against the best and
+                eventually become one of them. Achieving such a goal demands a long 
+                vision, a brave heart and an unwavering commitment.</p>
+                <br>
+                <p> University is ranked highly in this country. This is a great 
+                achievement. However, in the global landscape of higher education,
+                we are still off the radar. We are behind the world's best in our 
+                practices and standards. But we do not intend to stay that way.
+                We choose to aim ambitiously high. We shall continuously improve 
+                this University. We shall benchmark ourselves against the best and
+                eventually become one of them. Achieving such a goal demands a long 
+                vision, a brave heart and an unwavering commitment.</p>
+                <br>
+                <p> University is ranked highly in this country. This is a great 
+                achievement. However, in the global landscape of higher education,
+                we are still off the radar. We are behind the world's best in our 
+                practices and standards. But we do not intend to stay that way.
+                We choose to aim ambitiously high. We shall continuously improve 
+                this University. We shall benchmark ourselves against the best and
+                eventually become one of them. Achieving such a goal demands a long 
+                vision, a brave heart and an unwavering commitment.</p>
+                <br>
+                <p> University is ranked highly in this country. This is a great 
+                achievement. However, in the global landscape of higher education,
+                we are still off the radar. We are behind the world's best in our 
+                practices and standards.</p>
+
+
+                <div class="comment-box">
+                    <h3> Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn"> POST COMMENT</button>
+                    </form>
+                </div>
+                
+        </div>
+        <div class="blog-right">
+            <h3> Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Matching Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>28</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-------Footer------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Established in 1895 by the Swedish chemist and inventor 
+        of dynamite Alfred Bernhard Nobel, the Nobel Prize is<br> an annual 
+        award acknowledging outstanding contributions to physics,chemistry,
+        physiology or medicine, literature, and peace.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p> Made with <i class="fa fa-heart-o"></i> by Labonya Moni</p>
+</section>
+
+
+
+
+        <!------------JavaScript for Toggle Mune---->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+           function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200";
+            }
+        </script>
+
+    </body>
+    </html>
